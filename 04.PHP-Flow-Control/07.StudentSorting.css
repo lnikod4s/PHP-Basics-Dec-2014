@@ -1,0 +1,43 @@
+.input-form table {
+    border: 1px solid #A0A0A0;
+    margin-bottom: 5px;
+}
+.input-form th {
+    border-bottom: 1px solid black;
+    font-weight: normal;
+    text-align: left;
+    padding: 2px;
+}
+.input-form input {
+    height: 19px;
+}
+.input-form button {
+    color: white;
+    background: #234465;
+    height: 26px;
+    width: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.input-form button[type=submit] {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.results-table, .results-table th, .results-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.results-table th, .results-table td {
+    padding: 4px;
+}
+.results-table th {
+    color: white;
+    background: #4CA0DB;
+}
+.results-table .average {
+    font-weight: bold;
+}
+.results-table .score {
+    text-align: right;
+}

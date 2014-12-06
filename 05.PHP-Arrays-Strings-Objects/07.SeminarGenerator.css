@@ -1,0 +1,47 @@
+textarea {
+    width: 50%;
+    height: 150px;
+}
+th {
+    color: white;
+    background: #234465;
+    padding: 5px;
+}
+td {
+    padding: 8px;
+}
+td a {
+    color: inherit;
+}
+td a:hover {
+    color: red;
+}
+td button {
+    border: 1px solid black;
+    color: white;
+    background: #FF9C00;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+tr:nth-child(even) td {
+    background: #E2E2E2;
+}
+td:last-child {
+    visibility: hidden;
+}
+div {
+    width: 260px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    position: absolute;
+    z-index: 10;
+    background: white;
+    color: #4C5154;
+}
+div span {
+    text-decoration: underline;
+    font-weight: bold;
+}
